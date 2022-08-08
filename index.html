@@ -12,18 +12,23 @@
 
   gtag('config', 'G-7GF6LCF9LP');
 </script>
-
+<link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1><a href="index.html">내가 좋아하는 음식</a></h1>
-    <ol>
-      <li><a href="1.html">돈까스</a></li>
-      <li><a href="2.html">순대국밥</a></li>
-      <li><a href="3.html">삽겹살</a></li>
-    </ol>
-    <h2>내가 좋아하는 음식</h2>
-    <p>Tastynut이 좋아하는 음식들로는 돈까스, 순대국밥, 삼겹살 등등이 있다.</p>
-    <p><div id="disqus_thread"></div>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">돈까스</a></li>
+        <li><a href="2.html">순대국</a></li>
+        <li><a href="3.html">삽겹살</a></li>
+      </ol>
+      <div id="content">
+        <h2>내가 좋아하는 음식</h2>
+        <p>Tastynut이 좋아하는 음식들로는 돈까스, 순대국밥, 삼겹살 등등이 있다.</p>
+      </div>
+    </div>
+    <p>
+      <div id="disqus_thread"></div>
       <script>
           /**
           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -41,7 +46,8 @@
           (d.head || d.body).appendChild(s);
           })();
       </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
       <!--Start of Tawk.to Script-->
 <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
